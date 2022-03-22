@@ -77,3 +77,4 @@ fs.appendFile('file.log', content, err => {
 All those methods write the full content to the file before returning the control back to your program (in the async version, this means executing the callback)
 
 In this case, a better option is to write the file content using streams.
+
